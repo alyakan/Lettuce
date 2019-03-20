@@ -1,0 +1,6 @@
+framework module Pods_Lettuce {
+  umbrella header "Pods-Lettuce-umbrella.h"
+
+  export *
+  module * { export * }
+}
