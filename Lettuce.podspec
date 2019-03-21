@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/alyakan/Lettuce.git", :tag => "#{s.version}" }
-  s.source_files  = 'Lettuce/Classes/**/*'
+  s.source_files  = 'Lettuce/**/*.{h,m,swift}'
   s.dependency "GZIP", "~> 1.2"
 end
