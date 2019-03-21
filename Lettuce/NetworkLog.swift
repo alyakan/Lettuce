@@ -28,20 +28,20 @@ extension String {
 }
 
 public struct NetworkLog {
-    let dateCreated: Date = Date()
-    private(set) var request: NSMutableURLRequest?
-    private(set) var responseData: Data?
-    private(set) var requestBody: Data?
-    private(set) var error: Error?
-    private(set) var response: URLResponse?
-    private(set) var startTime: Double = 0.0
-    private(set) var endTime: Double = 0.0
+    public let dateCreated: Date = Date()
+    public private(set) var request: NSMutableURLRequest?
+    public private(set) var responseData: Data?
+    public private(set) var requestBody: Data?
+    public private(set) var error: Error?
+    public private(set) var response: URLResponse?
+    public private(set) var startTime: Double = 0.0
+    public private(set) var endTime: Double = 0.0
     
-    var duration: Double {
+    public var duration: Double {
         return (endTime - startTime) * 1000
     }
     
-    var responseJsonObject: Any? {
+    public var responseJsonObject: Any? {
         guard let data = responseData else {
             return nil
         }
@@ -53,7 +53,7 @@ public struct NetworkLog {
         return nil
     }
     
-    var requestBodyDictionary: Dictionary<String, Any>? {
+    public var requestBodyDictionary: Dictionary<String, Any>? {
         if let requestBody = requestBody {
             let json = try? JSONSerialization.jsonObject(with: requestBody, options: JSONSerialization.ReadingOptions.allowFragments)
             if let json = json as? Dictionary<String, Any> {
@@ -64,7 +64,7 @@ public struct NetworkLog {
         return nil
     }
     
-    var statusCode: Int {
+    public var statusCode: Int {
         guard let httpResponse = response as? HTTPURLResponse else {
             return 0
         }
@@ -81,11 +81,11 @@ public struct NetworkLog {
         self.endTime = endTime
     }
     
-    func description() -> String {
+    public func description() -> String {
         return "\(dictionaryRepresentation())"
     }
     
-    func dictionaryRepresentation() -> Dictionary<String, Any> {
+    public func dictionaryRepresentation() -> Dictionary<String, Any> {
         var representation: Dictionary<String, Any> = [:]
         
         if let httpResponse = response as? HTTPURLResponse {

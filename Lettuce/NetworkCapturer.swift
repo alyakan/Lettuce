@@ -38,12 +38,12 @@ class NetworkLogQuery: NSObject {
 public class NetworkCapturer {
     private typealias ValidationBlock = (NetworkLog)->(Bool)
     
-    static let shared: NetworkCapturer = NetworkCapturer()
+    public static let shared: NetworkCapturer = NetworkCapturer()
     
     private(set) var logs = [NetworkLog]()
     
-    var baseURL = "https://example.com/"
-    var timeOfInitialization = Date().timeIntervalSince1970
+    public var baseURL = "https://example.com/"
+    public private(set) var timeOfInitialization = Date().timeIntervalSince1970
     private var currentNetworkLogQuery: NetworkLogQuery?
     private var currentValidationBlock: ValidationBlock?
     private var didEnterDispatchGroup = false
@@ -53,7 +53,7 @@ public class NetworkCapturer {
     
     // MARK: - Public
     
-    func reset() {
+    public func reset() {
         leaveDispatchGroupIfCurrentlyEntered()
         logs = [NetworkLog]()
         currentNetworkLogQuery?.results.removeAll()
@@ -68,7 +68,7 @@ public class NetworkCapturer {
         printToConsole(networkLog: networkLog)
     }
     
-    func waitForLog(matchingUrlPath path: String, method: String, startTime: Double, timeout: Int = 1) -> NetworkLog? {
+    public func waitForLog(matchingUrlPath path: String, method: String, startTime: Double, timeout: Int = 1) -> NetworkLog? {
         let query = NetworkLogQuery(urlPath: path, requestMethod: method, startTime: startTime)
         
         currentNetworkLogQuery = query
@@ -106,7 +106,7 @@ public class NetworkCapturer {
         return nil
     }
     
-    func waitForLogs(matchingUrlPath path: String, method: String, startTime: Double, timeout: Int = 1, requiredLogsCount: Int = 1) -> [NetworkLog] {
+    public func waitForLogs(matchingUrlPath path: String, method: String, startTime: Double, timeout: Int = 1, requiredLogsCount: Int = 1) -> [NetworkLog] {
         let query = NetworkLogQuery(urlPath: path, requestMethod: method, startTime: startTime, requiredLogsCount: requiredLogsCount)
 
         currentNetworkLogQuery = query

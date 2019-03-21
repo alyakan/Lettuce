@@ -11,7 +11,6 @@
 		348BA375D2200B5F78F37966 /* Pods_LettuceExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DEDDF981215B3F4F08695B /* Pods_LettuceExamples.framework */; };
 		714F69E522427BA500A83AD4 /* Lettuce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714F69DB22427BA500A83AD4 /* Lettuce.framework */; };
 		714F69EA22427BA500A83AD4 /* LettuceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F69E922427BA500A83AD4 /* LettuceTests.swift */; };
-		714F69EC22427BA500A83AD4 /* Lettuce.h in Headers */ = {isa = PBXBuildFile; fileRef = 714F69DE22427BA500A83AD4 /* Lettuce.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		714F69FC22427C3700A83AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F69FB22427C3700A83AD4 /* AppDelegate.swift */; };
 		714F69FE22427C3700A83AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F69FD22427C3700A83AD4 /* ViewController.swift */; };
 		714F6A0122427C3700A83AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714F69FF22427C3700A83AD4 /* Main.storyboard */; };
@@ -42,7 +41,6 @@
 		33DEDDF981215B3F4F08695B /* Pods_LettuceExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LettuceExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484308831396A476F5696CB4 /* Pods-Lettuce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lettuce.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lettuce/Pods-Lettuce.release.xcconfig"; sourceTree = "<group>"; };
 		714F69DB22427BA500A83AD4 /* Lettuce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lettuce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		714F69DE22427BA500A83AD4 /* Lettuce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lettuce.h; sourceTree = "<group>"; };
 		714F69DF22427BA500A83AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		714F69E422427BA500A83AD4 /* LettuceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LettuceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		714F69E922427BA500A83AD4 /* LettuceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettuceTests.swift; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 		714F69DD22427BA500A83AD4 /* Lettuce */ = {
 			isa = PBXGroup;
 			children = (
-				714F69DE22427BA500A83AD4 /* Lettuce.h */,
 				714F6A0D2242A0D200A83AD4 /* MultiPartDataExtractor.swift */,
 				714F6A0C2242A0D200A83AD4 /* NetworkCapturer.swift */,
 				714F6A0B2242A0D200A83AD4 /* NetworkLog.swift */,
@@ -180,24 +177,12 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		714F69D622427BA500A83AD4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				714F69EC22427BA500A83AD4 /* Lettuce.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		714F69DA22427BA500A83AD4 /* Lettuce */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714F69EF22427BA500A83AD4 /* Build configuration list for PBXNativeTarget "Lettuce" */;
 			buildPhases = (
 				3338A65179A73E69DE967B7B /* [CP] Check Pods Manifest.lock */,
-				714F69D622427BA500A83AD4 /* Headers */,
 				714F69D722427BA500A83AD4 /* Sources */,
 				714F69D822427BA500A83AD4 /* Frameworks */,
 				714F69D922427BA500A83AD4 /* Resources */,
