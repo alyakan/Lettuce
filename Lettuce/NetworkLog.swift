@@ -48,7 +48,7 @@ struct NetworkLog {
         do {
             return try JSONSerialization.jsonObject(with: data, options: [])
         } catch {
-            os_log("Couldn't serialize response into json object with error: %@", error.localizedDescription)
+            print("Couldn't serialize response into json object with error: \(error.localizedDescription)")
         }
         return nil
     }
