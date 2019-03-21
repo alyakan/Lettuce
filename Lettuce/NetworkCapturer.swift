@@ -35,7 +35,7 @@ class NetworkLogQuery: NSObject {
     }
 }
 
-class NetworkCapturer {
+public class NetworkCapturer {
     private typealias ValidationBlock = (NetworkLog)->(Bool)
     
     static let shared: NetworkCapturer = NetworkCapturer()

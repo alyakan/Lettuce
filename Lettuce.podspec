@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Lettuce"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Simple network interceptor for Swift."
   s.description  = <<-DESC
   Sniff your network requests using a base URL so you can assert on the payload for faster network issues debugging.

@@ -27,7 +27,7 @@ extension String {
     }
 }
 
-struct NetworkLog {
+public struct NetworkLog {
     let dateCreated: Date = Date()
     private(set) var request: NSMutableURLRequest?
     private(set) var responseData: Data?
