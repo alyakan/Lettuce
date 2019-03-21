@@ -1,0 +1,6 @@
+framework module GZIP {
+  umbrella header "GZIP-iOS9.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Lettuce {
+  umbrella header "Lettuce-umbrella.h"
+
+  export *
+  module * { export * }
+}

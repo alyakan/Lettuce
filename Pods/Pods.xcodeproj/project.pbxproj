@@ -7,136 +7,244 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AAC10344C046B17F6C7A1C7768E8E49 /* Pods-LettuceExamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5640E007EEB1E0144E2F649E1DDF9BE /* Pods-LettuceExamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		278015CC589FE2EC6015C963D442B5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3F165B8CD170B027557E758C7FDECA9E /* GZIP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA781FD4FBFC04B4BC77F7918DC176C8 /* GZIP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55FB27C66F430D068180047355CCA267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		56FB6C60154BFCC0AEF24F0C8B6A4FD7 /* GZIP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63799645BF43AB908DC7ED306E2EA8BD /* GZIP-dummy.m */; };
-		6295A52BEBF3FD46667DC7CCD0A8F4FD /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D7EF1FE201447F43E5892849D860C /* NSData+GZIP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7413E1C37DF40F0281B5DFF47AC0D2B2 /* GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF460DB10155E964404CF23128DEE3E /* GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		774F538AC4EAC18FA7A13A5665EF496C /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAB702E7C2E5B116CACDFB99A70FAEE /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7DCAD2456F30B0B738C07149E040A8 /* Pods-LettuceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6C601183CFBA7391195A49D4CC91 /* Pods-LettuceTests-dummy.m */; };
-		91CD009F739DD8FCF922C3A63A6C9E5A /* Pods-LettuceExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B13491D0B0B678F9BAFFC3FEF356F175 /* Pods-LettuceExamples-dummy.m */; };
-		9BFB2B0A6ADBE881A523E76D6F40618D /* Pods-LettuceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1B51531AF33FDC9269BE475F4BBBFD /* Pods-LettuceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A008CC94C16735200C77F06475BD0A3E /* Pods-Lettuce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8515E0C302D3F510B57FF85DFD139552 /* Pods-Lettuce-dummy.m */; };
-		B1ECF2DCB1B03EBD53A7A661064F394E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		CBA5A1560DA6B9D56DB7FC53727DB954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		DE05D0B3CFBCAE8278F9DC6FC7ED9C98 /* Pods-Lettuce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A83F826B2E5EB80C8D9F8977C58EB2 /* Pods-Lettuce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0762E699A512720127F6ED0D74CC2FFD /* Pods-LettuceExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B13491D0B0B678F9BAFFC3FEF356F175 /* Pods-LettuceExamples-dummy.m */; };
+		3130DB52821FE4FA5071A0541777DD17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		3BBC6D07C30CA8605560CEB9AF8389E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		3BDE64E6CBC079184955912C5DC192DA /* MultiPartDataExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28FD52782DE69A2B3303B93FD652B /* MultiPartDataExtractor.swift */; };
+		412B5B11D8DE15556C390F2D60D091AB /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C699FE9C8FCFA573080B82B2BB1812 /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4549882426F5227E300E914FF9B2D13D /* GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 753D001BBD359AABE7EF1D0DD4737D34 /* GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F5086A868E6544EDB1DF9B53B33B6D /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D0E3290226FC86BCE21669D459BD /* NSData+GZIP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		52A972B8252C538E3731621E37D3A903 /* GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 753D001BBD359AABE7EF1D0DD4737D34 /* GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C119AE3ED70AF39FED426C7567A44C1 /* Lettuce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C68017F35ECB9BF9B6D2711766E187 /* Lettuce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D110D86AF8BEC9D58ACAD073FBB365 /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D0E3290226FC86BCE21669D459BD /* NSData+GZIP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		78DF9CC2790AC6C286AFE8AB10FA152E /* GZIP-iOS12.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 122113AAFFB882CC77F18EBAB505960E /* GZIP-iOS12.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80ABF01D792C6FAC0CF875AE34230B96 /* Pods-Lettuce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8515E0C302D3F510B57FF85DFD139552 /* Pods-Lettuce-dummy.m */; };
+		84E66D5021E4D391C6D450B77388DB7E /* GZIP-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE8255B6BA2A96ABB982EC6CAF28907 /* GZIP-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A300EC10D807D5515239F6176040D0 /* Pods-LettuceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6C601183CFBA7391195A49D4CC91 /* Pods-LettuceTests-dummy.m */; };
+		99610381E57A2551E579E7C95AE4B4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		A5789DCCF7468C5B8C99C1B60C7FC94F /* GZIP-iOS12.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3396337C1A2D8DCC1E921BED134B10 /* GZIP-iOS12.0-dummy.m */; };
+		AB89977A3B03328C4980E8DF4CB38B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		AE48219A1D6297733D190BF7E896BC45 /* Pods-LettuceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1B51531AF33FDC9269BE475F4BBBFD /* Pods-LettuceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF076CA0E933BEC519E57C83AD8536C /* Pods-LettuceExamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5640E007EEB1E0144E2F649E1DDF9BE /* Pods-LettuceExamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B048C0516F072FB11755835E9AC73023 /* URLSessionDemux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F3878C0A6B5863524F44675DE1C41 /* URLSessionDemux.swift */; };
+		B38ADE10D1EA670876ADDD9F09A60A80 /* NetworkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C19F6FE59BB5E8314179CF85E97D9E /* NetworkLog.swift */; };
+		BBF620264DD3C0F8579060370A694FC0 /* Lettuce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C360DCF34867F972137A4CEDA93C22 /* Lettuce-dummy.m */; };
+		C513BCE481EED6CC943A8B303BE03AD4 /* NetworkCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0F785C08365A818AA026013E6772B /* NetworkCapturer.swift */; };
+		D512E7BBA35CAB021674687C1A9FB4CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		DC321C3FD3AE63B44E2088B4DF3B34FD /* TestingURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B17DF3DE19E5C3DE54925EDB1D84D /* TestingURLProtocol.swift */; };
+		E634F2B5BF3FE4B285CB6E67BDFF8CE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */; };
+		E65D8C7C9A78A31DD599E1F6A323E4EC /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C699FE9C8FCFA573080B82B2BB1812 /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67BFFF9A3FBD28E376E348EF6608222 /* Pods-Lettuce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A83F826B2E5EB80C8D9F8977C58EB2 /* Pods-Lettuce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED47EDDCE0A085E56BFC4DB8015369ED /* GZIP-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E87CA6BB3BE2472DF48C20C1CF9F77D2 /* GZIP-iOS9.0-dummy.m */; };
+		F7BA39FBFA6F6F15C51E8E0E2AA431C1 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2DC4019F7E9FB46A0B180C84C22BAF /* GZIP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2FA18C73E06D6E681C8FE87051E9FD88 /* PBXContainerItemProxy */ = {
+		0E0A7E6BAB4987ED7B77BB6AF4ECBC58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51EA1DC3801EB339C32B639F340026A9;
-			remoteInfo = GZIP;
+			remoteGlobalIDString = 42305B8E7C703723C942CECDC1476AA4;
+			remoteInfo = Lettuce;
 		};
-		7D1F149976316647A04ECDC20536AB6C /* PBXContainerItemProxy */ = {
+		2D3D9514B603E546769FB70430EC243D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCB32CD65C5DA947CBD7639371CC2F92;
+			remoteGlobalIDString = 717403A465B0F3D2C9D98D6F56852B27;
+			remoteInfo = "GZIP-iOS9.0";
+		};
+		53EFDF0955E946AF792AE3729A1965CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717403A465B0F3D2C9D98D6F56852B27;
+			remoteInfo = "GZIP-iOS9.0";
+		};
+		9652F46CECF9F16A849832EECC63E950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4075207DD61A8D27F9C19ABB061697;
 			remoteInfo = "Pods-Lettuce";
 		};
-		9D69C3A55B1A6BED415A5D3E6E59829E /* PBXContainerItemProxy */ = {
+		AADBD824C387CF63918274EF614DD5BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51EA1DC3801EB339C32B639F340026A9;
-			remoteInfo = GZIP;
+			remoteGlobalIDString = 717403A465B0F3D2C9D98D6F56852B27;
+			remoteInfo = "GZIP-iOS9.0";
+		};
+		C62234B8D5973A748FB477751EF157D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DFBCA77D6D6DAC76C847177E33DB3E;
+			remoteInfo = "GZIP-iOS12.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00179C69BCEB0431FD931AB262959D8E /* GZIP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GZIP.modulemap; sourceTree = "<group>"; };
 		005BF8F43C1C196EF49716B9675C6F9C /* Pods-LettuceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LettuceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		098207E61C7A80821918168A87C4A705 /* Pods-LettuceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LettuceTests-frameworks.sh"; sourceTree = "<group>"; };
+		122113AAFFB882CC77F18EBAB505960E /* GZIP-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZIP-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
+		1738C828397CA1A3CE79C23E4C4A7118 /* GZIP-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GZIP-iOS12.0.modulemap"; sourceTree = "<group>"; };
+		2A0A9A775B43AB24E75AA50B6F555B44 /* GZIP-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GZIP-iOS9.0.xcconfig"; path = "../GZIP-iOS9.0/GZIP-iOS9.0.xcconfig"; sourceTree = "<group>"; };
 		2C5229F51BE88D99145452F103B023FC /* Pods-Lettuce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lettuce-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CF460DB10155E964404CF23128DEE3E /* GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP.h; sourceTree = "<group>"; };
+		2F9B17DF3DE19E5C3DE54925EDB1D84D /* TestingURLProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestingURLProtocol.swift; path = Lettuce/TestingURLProtocol.swift; sourceTree = "<group>"; };
 		319FA70CFD3183570F445B1461EA4D56 /* Pods-LettuceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LettuceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		37973BF8D1DFDE613B6D123188087124 /* Pods_LettuceExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LettuceExamples.framework; path = "Pods-LettuceExamples.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EF6C601183CFBA7391195A49D4CC91 /* Pods-LettuceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LettuceTests-dummy.m"; sourceTree = "<group>"; };
-		3C1D7EF1FE201447F43E5892849D860C /* NSData+GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZIP.m"; path = "GZIP/NSData+GZIP.m"; sourceTree = "<group>"; };
-		41B624C3AD65D38C8AF5BCBC43225E30 /* GZIP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZIP.xcconfig; sourceTree = "<group>"; };
+		3C39BD902907F218A73590FF4694C0B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GZIP-iOS9.0/Info.plist"; sourceTree = "<group>"; };
+		40571C673FA1E266C92210A413AB5296 /* Pods_Lettuce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lettuce.framework; path = "Pods-Lettuce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F034CE19E0A834C935C4A55FF5B9F9 /* GZIP-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "GZIP-iOS9.0.modulemap"; path = "../GZIP-iOS9.0/GZIP-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		4D2DC4019F7E9FB46A0B180C84C22BAF /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GZIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D59B7195237EDF14104530B1184CA6A /* Pods-LettuceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LettuceTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5088B6DDFAFE131AA46478764EC81352 /* Pods-LettuceExamples-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LettuceExamples-frameworks.sh"; sourceTree = "<group>"; };
 		50A555CC375FF11375AB695A1BC07479 /* Pods-Lettuce-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lettuce-resources.sh"; sourceTree = "<group>"; };
 		531A92A6764A725D1C879038920E0AA4 /* Pods-LettuceExamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LettuceExamples.modulemap"; sourceTree = "<group>"; };
-		56F21332361E81E17FD4B65E7DE574EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D05135994C98AFFBAD3641259733C6A /* Pods_LettuceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LettuceTests.framework; path = "Pods-LettuceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560C279DA980D73AA74628383BD14883 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5EC833DE947A7B6C272C07B5F31C746B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63799645BF43AB908DC7ED306E2EA8BD /* GZIP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZIP-dummy.m"; sourceTree = "<group>"; };
 		63EC0D936D2A06CF57301C27709F083D /* Pods-LettuceExamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LettuceExamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6609D0E3290226FC86BCE21669D459BD /* NSData+GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZIP.m"; path = "GZIP/NSData+GZIP.m"; sourceTree = "<group>"; };
 		6773946858153A949CFFFDA1EC14CC77 /* Pods-Lettuce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lettuce-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E062D72C4FFF978764E527E75E147B2 /* Pods_Lettuce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lettuce.framework; path = "Pods-Lettuce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF49928A7EADDA8EB314CC57EA32264 /* Lettuce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lettuce-prefix.pch"; sourceTree = "<group>"; };
+		71B28FD52782DE69A2B3303B93FD652B /* MultiPartDataExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiPartDataExtractor.swift; path = Lettuce/MultiPartDataExtractor.swift; sourceTree = "<group>"; };
+		753D001BBD359AABE7EF1D0DD4737D34 /* GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP.h; sourceTree = "<group>"; };
 		7839DB7623C7235CF30B6C20586A97BA /* Pods-Lettuce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lettuce.release.xcconfig"; sourceTree = "<group>"; };
 		7E7035D109AC3090DFB050998DDA4E13 /* Pods-Lettuce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lettuce.debug.xcconfig"; sourceTree = "<group>"; };
 		8515E0C302D3F510B57FF85DFD139552 /* Pods-Lettuce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lettuce-dummy.m"; sourceTree = "<group>"; };
+		858FFB5057E4D044040F996A0269DAFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE5C4CD3293696AD23D27F43C73A688 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C699FE9C8FCFA573080B82B2BB1812 /* NSData+GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GZIP.h"; path = "GZIP/NSData+GZIP.h"; sourceTree = "<group>"; };
 		9147CD6654C0CDB244FCB428F18D1B8B /* Pods-LettuceExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LettuceExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		92988EEE2ED4461A1A373937ED25EBF5 /* Lettuce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lettuce.framework; path = Lettuce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9398C4C975B34D353045D6039DCA86AD /* Pods-LettuceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LettuceTests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B538CD7F26BAD9A517B4E5B9DC6E0B /* Lettuce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lettuce.modulemap; sourceTree = "<group>"; };
+		98C7973157F9318804A45F2D76F85096 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1B51531AF33FDC9269BE475F4BBBFD /* Pods-LettuceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LettuceTests-umbrella.h"; sourceTree = "<group>"; };
-		A5A77EF8431E68AEA52EBEC75203389F /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZIP.framework; path = GZIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28C2E4284FDED64FA3170A15B0CB3BF /* Lettuce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Lettuce.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC4605CA0226709834144DD5BB1924ED /* GZIP-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GZIP-iOS9.0-prefix.pch"; path = "../GZIP-iOS9.0/GZIP-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
+		AF548E4158E408E5637B10F8E78821AF /* Pods_LettuceExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LettuceExamples.framework; path = "Pods-LettuceExamples.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C360DCF34867F972137A4CEDA93C22 /* Lettuce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lettuce-dummy.m"; sourceTree = "<group>"; };
 		B13491D0B0B678F9BAFFC3FEF356F175 /* Pods-LettuceExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LettuceExamples-dummy.m"; sourceTree = "<group>"; };
 		B3A83F826B2E5EB80C8D9F8977C58EB2 /* Pods-Lettuce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lettuce-umbrella.h"; sourceTree = "<group>"; };
+		B4C68017F35ECB9BF9B6D2711766E187 /* Lettuce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lettuce-umbrella.h"; sourceTree = "<group>"; };
+		B6C19F6FE59BB5E8314179CF85E97D9E /* NetworkLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLog.swift; path = Lettuce/NetworkLog.swift; sourceTree = "<group>"; };
 		B91212FE459E8FC08CC5A691A83FEFED /* Pods-LettuceExamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LettuceExamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB2F3878C0A6B5863524F44675DE1C41 /* URLSessionDemux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDemux.swift; path = Lettuce/URLSessionDemux.swift; sourceTree = "<group>"; };
 		CA0E639C8F5E7BF434F295F8AD32E455 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA781FD4FBFC04B4BC77F7918DC176C8 /* GZIP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZIP-umbrella.h"; sourceTree = "<group>"; };
-		CAAB702E7C2E5B116CACDFB99A70FAEE /* NSData+GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GZIP.h"; path = "GZIP/NSData+GZIP.h"; sourceTree = "<group>"; };
+		CC5866A01C66D154F126A6F46147CFFE /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZIP.framework; path = "GZIP-iOS9.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB3BA99FD057303F31BF04CBBEEDC7 /* Pods-LettuceExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LettuceExamples.release.xcconfig"; sourceTree = "<group>"; };
 		D5640E007EEB1E0144E2F649E1DDF9BE /* Pods-LettuceExamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LettuceExamples-umbrella.h"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA3396337C1A2D8DCC1E921BED134B10 /* GZIP-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZIP-iOS12.0-dummy.m"; sourceTree = "<group>"; };
+		DC64E2B561FDAA53981DF04526851C8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DDAB9BCEEADEDB9B340985A3F1C9EF82 /* Pods-LettuceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LettuceTests-resources.sh"; sourceTree = "<group>"; };
+		DDD3853627FD171AF9918A135DCF8C11 /* GZIP-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GZIP-iOS12.0.xcconfig"; sourceTree = "<group>"; };
+		DEE8255B6BA2A96ABB982EC6CAF28907 /* GZIP-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GZIP-iOS9.0-umbrella.h"; path = "../GZIP-iOS9.0/GZIP-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
+		DFC2B1DB8FA1A477E60E9BDF1606F272 /* Pods_LettuceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LettuceTests.framework; path = "Pods-LettuceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0869838F2F59882B158B106915718F1 /* Pods-LettuceExamples-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LettuceExamples-resources.sh"; sourceTree = "<group>"; };
+		E55A884BE89A23A71928279105D3221F /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZIP.framework; path = "GZIP-iOS12.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87CA6BB3BE2472DF48C20C1CF9F77D2 /* GZIP-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GZIP-iOS9.0-dummy.m"; path = "../GZIP-iOS9.0/GZIP-iOS9.0-dummy.m"; sourceTree = "<group>"; };
+		E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECF0F785C08365A818AA026013E6772B /* NetworkCapturer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkCapturer.swift; path = Lettuce/NetworkCapturer.swift; sourceTree = "<group>"; };
+		EE0ACBE5182C9DC04EE8A93BA5119378 /* GZIP-iOS12.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZIP-iOS12.0-prefix.pch"; sourceTree = "<group>"; };
+		EED8F54BCB5CDA32C967B36A8710EDAE /* Lettuce.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lettuce.xcconfig; sourceTree = "<group>"; };
 		EFE0DE7DE8DE63115234878FF5580398 /* Pods-Lettuce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lettuce.modulemap"; sourceTree = "<group>"; };
-		F7DEF873F8A64060268F6BA301535561 /* GZIP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZIP-prefix.pch"; sourceTree = "<group>"; };
 		F9C2BDF2B14007101350D7810E3A5641 /* Pods-LettuceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LettuceTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B5F343B661A29C12554A19091E0E3BA /* Frameworks */ = {
+		0151ED2C29EDE7ECF4C01ACCE594C59E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ECF2DCB1B03EBD53A7A661064F394E /* Foundation.framework in Frameworks */,
+				99610381E57A2551E579E7C95AE4B4C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68DA21365683ACA28E23B6803C0EA1F2 /* Frameworks */ = {
+		08EC8477101792A98B72583D844AC318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FB27C66F430D068180047355CCA267 /* Foundation.framework in Frameworks */,
+				AB89977A3B03328C4980E8DF4CB38B1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		965CBAB47F901916052D471D74F00E3F /* Frameworks */ = {
+		1E983AA1E1CCC8B25A6714C9D200F24F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278015CC589FE2EC6015C963D442B5AE /* Foundation.framework in Frameworks */,
+				3BBC6D07C30CA8605560CEB9AF8389E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8AA044489EFFA16ADAC945AC4E4204F /* Frameworks */ = {
+		598BB107D623D28736A9E698D3F871F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA5A1560DA6B9D56DB7FC53727DB954 /* Foundation.framework in Frameworks */,
+				E634F2B5BF3FE4B285CB6E67BDFF8CE5 /* Foundation.framework in Frameworks */,
+				F7BA39FBFA6F6F15C51E8E0E2AA431C1 /* GZIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7290D707E736AD84A017E46D0D33432A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3130DB52821FE4FA5071A0541777DD17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D49D32355183B30E45F3A6E2F364E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512E7BBA35CAB021674687C1A9FB4CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		07A53BDAC63E7481B3464963B21E4F5A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				BFBDA233D62EC7779434667BC5F70DE4 /* Lettuce */,
 			);
-			name = iOS;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		175EFBDE8CF3BF013DB5BD8F6D0EFDCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A28C2E4284FDED64FA3170A15B0CB3BF /* Lettuce.podspec */,
+				DC64E2B561FDAA53981DF04526851C8B /* LICENSE */,
+				560C279DA980D73AA74628383BD14883 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2D1CCA08588EAC586BFCE5AE95053026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55A884BE89A23A71928279105D3221F /* GZIP.framework */,
+				CC5866A01C66D154F126A6F46147CFFE /* GZIP.framework */,
+				92988EEE2ED4461A1A373937ED25EBF5 /* Lettuce.framework */,
+				40571C673FA1E266C92210A413AB5296 /* Pods_Lettuce.framework */,
+				AF548E4158E408E5637B10F8E78821AF /* Pods_LettuceExamples.framework */,
+				DFC2B1DB8FA1A477E60E9BDF1606F272 /* Pods_LettuceTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45643246F7C5C2F62C9E20B7E601424F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D2DC4019F7E9FB46A0B180C84C22BAF /* GZIP.framework */,
+				69A65A42E24366D1A5480FE56BDE9A77 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5ECED3B20113CAA3806DA786CF78E9E3 /* Pods-LettuceExamples */ = {
@@ -157,49 +265,33 @@
 			path = "Target Support Files/Pods-LettuceExamples";
 			sourceTree = "<group>";
 		};
-		6551BE4B32ABE6B09A33C7F2C3930211 /* Support Files */ = {
+		69A65A42E24366D1A5480FE56BDE9A77 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				00179C69BCEB0431FD931AB262959D8E /* GZIP.modulemap */,
-				41B624C3AD65D38C8AF5BCBC43225E30 /* GZIP.xcconfig */,
-				63799645BF43AB908DC7ED306E2EA8BD /* GZIP-dummy.m */,
-				F7DEF873F8A64060268F6BA301535561 /* GZIP-prefix.pch */,
-				CA781FD4FBFC04B4BC77F7918DC176C8 /* GZIP-umbrella.h */,
-				56F21332361E81E17FD4B65E7DE574EF /* Info.plist */,
+				E98DD825B42F49C9CA91C69F3AF47FA9 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GZIP";
-			sourceTree = "<group>";
-		};
-		7904FD019A94ECD04FABA8B9E806E557 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A5A77EF8431E68AEA52EBEC75203389F /* GZIP.framework */,
-				6E062D72C4FFF978764E527E75E147B2 /* Pods_Lettuce.framework */,
-				37973BF8D1DFDE613B6D123188087124 /* Pods_LettuceExamples.framework */,
-				5D05135994C98AFFBAD3641259733C6A /* Pods_LettuceTests.framework */,
-			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				07A53BDAC63E7481B3464963B21E4F5A /* Development Pods */,
+				45643246F7C5C2F62C9E20B7E601424F /* Frameworks */,
 				B5E205FC7173FD9AEB40964ED5324981 /* Pods */,
-				7904FD019A94ECD04FABA8B9E806E557 /* Products */,
+				2D1CCA08588EAC586BFCE5AE95053026 /* Products */,
 				BC3F57B00A868EF3AA349A1FC9387105 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8329E4F0173FD9532B348E41C6945FDD /* GZIP */ = {
+		90DCB736C5E1C2E5E5E93FD0D0E40017 /* GZIP */ = {
 			isa = PBXGroup;
 			children = (
-				2CF460DB10155E964404CF23128DEE3E /* GZIP.h */,
-				CAAB702E7C2E5B116CACDFB99A70FAEE /* NSData+GZIP.h */,
-				3C1D7EF1FE201447F43E5892849D860C /* NSData+GZIP.m */,
-				6551BE4B32ABE6B09A33C7F2C3930211 /* Support Files */,
+				753D001BBD359AABE7EF1D0DD4737D34 /* GZIP.h */,
+				90C699FE9C8FCFA573080B82B2BB1812 /* NSData+GZIP.h */,
+				6609D0E3290226FC86BCE21669D459BD /* NSData+GZIP.m */,
+				C820DAE0C745D4CD5D3969B1158E768A /* Support Files */,
 			);
 			name = GZIP;
 			path = GZIP;
@@ -222,20 +314,26 @@
 			path = "Target Support Files/Pods-Lettuce";
 			sourceTree = "<group>";
 		};
+		AA5C40BD49C3A061E5EEE57FDEC7D26F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C7973157F9318804A45F2D76F85096 /* Info.plist */,
+				95B538CD7F26BAD9A517B4E5B9DC6E0B /* Lettuce.modulemap */,
+				EED8F54BCB5CDA32C967B36A8710EDAE /* Lettuce.xcconfig */,
+				B0C360DCF34867F972137A4CEDA93C22 /* Lettuce-dummy.m */,
+				6EF49928A7EADDA8EB314CC57EA32264 /* Lettuce-prefix.pch */,
+				B4C68017F35ECB9BF9B6D2711766E187 /* Lettuce-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Lettuce";
+			sourceTree = "<group>";
+		};
 		B5E205FC7173FD9AEB40964ED5324981 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8329E4F0173FD9532B348E41C6945FDD /* GZIP */,
+				90DCB736C5E1C2E5E5E93FD0D0E40017 /* GZIP */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3F57B00A868EF3AA349A1FC9387105 /* Targets Support Files */ = {
@@ -246,6 +344,41 @@
 				C8322137E220F63090CA369A7ACBA0AF /* Pods-LettuceTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFBDA233D62EC7779434667BC5F70DE4 /* Lettuce */ = {
+			isa = PBXGroup;
+			children = (
+				71B28FD52782DE69A2B3303B93FD652B /* MultiPartDataExtractor.swift */,
+				ECF0F785C08365A818AA026013E6772B /* NetworkCapturer.swift */,
+				B6C19F6FE59BB5E8314179CF85E97D9E /* NetworkLog.swift */,
+				2F9B17DF3DE19E5C3DE54925EDB1D84D /* TestingURLProtocol.swift */,
+				BB2F3878C0A6B5863524F44675DE1C41 /* URLSessionDemux.swift */,
+				175EFBDE8CF3BF013DB5BD8F6D0EFDCF /* Pod */,
+				AA5C40BD49C3A061E5EEE57FDEC7D26F /* Support Files */,
+			);
+			name = Lettuce;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C820DAE0C745D4CD5D3969B1158E768A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1738C828397CA1A3CE79C23E4C4A7118 /* GZIP-iOS12.0.modulemap */,
+				DDD3853627FD171AF9918A135DCF8C11 /* GZIP-iOS12.0.xcconfig */,
+				DA3396337C1A2D8DCC1E921BED134B10 /* GZIP-iOS12.0-dummy.m */,
+				EE0ACBE5182C9DC04EE8A93BA5119378 /* GZIP-iOS12.0-prefix.pch */,
+				122113AAFFB882CC77F18EBAB505960E /* GZIP-iOS12.0-umbrella.h */,
+				42F034CE19E0A834C935C4A55FF5B9F9 /* GZIP-iOS9.0.modulemap */,
+				2A0A9A775B43AB24E75AA50B6F555B44 /* GZIP-iOS9.0.xcconfig */,
+				E87CA6BB3BE2472DF48C20C1CF9F77D2 /* GZIP-iOS9.0-dummy.m */,
+				AC4605CA0226709834144DD5BB1924ED /* GZIP-iOS9.0-prefix.pch */,
+				DEE8255B6BA2A96ABB982EC6CAF28907 /* GZIP-iOS9.0-umbrella.h */,
+				3C39BD902907F218A73590FF4694C0B5 /* Info.plist */,
+				858FFB5057E4D044040F996A0269DAFB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GZIP-iOS12.0";
 			sourceTree = "<group>";
 		};
 		C8322137E220F63090CA369A7ACBA0AF /* Pods-LettuceTests */ = {
@@ -269,116 +402,173 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		804203A4DF5B39D4B65179E3D911B56C /* Headers */ = {
+		0559E50445D2FD6C64BDFE07B50466B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE05D0B3CFBCAE8278F9DC6FC7ED9C98 /* Pods-Lettuce-umbrella.h in Headers */,
+				6C119AE3ED70AF39FED426C7567A44C1 /* Lettuce-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B50B24DC16D58A453FF2BA493DD20EBD /* Headers */ = {
+		163D5C882F94B7B3D2B32D4062B6EABC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F165B8CD170B027557E758C7FDECA9E /* GZIP-umbrella.h in Headers */,
-				7413E1C37DF40F0281B5DFF47AC0D2B2 /* GZIP.h in Headers */,
-				774F538AC4EAC18FA7A13A5665EF496C /* NSData+GZIP.h in Headers */,
+				78DF9CC2790AC6C286AFE8AB10FA152E /* GZIP-iOS12.0-umbrella.h in Headers */,
+				52A972B8252C538E3731621E37D3A903 /* GZIP.h in Headers */,
+				412B5B11D8DE15556C390F2D60D091AB /* NSData+GZIP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40053563F7A58B71750B9058B3CB3CA /* Headers */ = {
+		C839D814A0F81CA7774D52DEC3F423BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAC10344C046B17F6C7A1C7768E8E49 /* Pods-LettuceExamples-umbrella.h in Headers */,
+				E67BFFF9A3FBD28E376E348EF6608222 /* Pods-Lettuce-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4E8C833EF81F2F53E9176D911BC89E3 /* Headers */ = {
+		D3EF2B99643F2D99B2E7E8114934EB76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BFB2B0A6ADBE881A523E76D6F40618D /* Pods-LettuceTests-umbrella.h in Headers */,
+				AE48219A1D6297733D190BF7E896BC45 /* Pods-LettuceTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08739FFFDDC7B026364D28C67F5582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF076CA0E933BEC519E57C83AD8536C /* Pods-LettuceExamples-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB0BFFB2C2E8DFD6CA0C0DB4D95098 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E66D5021E4D391C6D450B77388DB7E /* GZIP-iOS9.0-umbrella.h in Headers */,
+				4549882426F5227E300E914FF9B2D13D /* GZIP.h in Headers */,
+				E65D8C7C9A78A31DD599E1F6A323E4EC /* NSData+GZIP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51EA1DC3801EB339C32B639F340026A9 /* GZIP */ = {
+		1347CB4413BC9CECA5F3C519DE79C903 /* Pods-LettuceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B743A347F9A992C2A2C31918A3D74DA /* Build configuration list for PBXNativeTarget "GZIP" */;
+			buildConfigurationList = 824B5F702033D41DC0D43C45A4D41512 /* Build configuration list for PBXNativeTarget "Pods-LettuceTests" */;
 			buildPhases = (
-				B50B24DC16D58A453FF2BA493DD20EBD /* Headers */,
-				08362AC3155B9844E35A5A906B7D95D8 /* Sources */,
-				1B5F343B661A29C12554A19091E0E3BA /* Frameworks */,
-				C5FCE63E6F83094B0192857C17219ED6 /* Resources */,
+				D3EF2B99643F2D99B2E7E8114934EB76 /* Headers */,
+				9220DEF1617F9D9F9E874D0867336987 /* Sources */,
+				08EC8477101792A98B72583D844AC318 /* Frameworks */,
+				98495BAA842A329B2C74B5786305416C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = GZIP;
-			productName = GZIP;
-			productReference = A5A77EF8431E68AEA52EBEC75203389F /* GZIP.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B1DB6736ED2196E87281806F34BF604F /* Pods-LettuceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A90E2DC95B7941CDCEDE02D74B57BE22 /* Build configuration list for PBXNativeTarget "Pods-LettuceTests" */;
-			buildPhases = (
-				F4E8C833EF81F2F53E9176D911BC89E3 /* Headers */,
-				7741AEA96351940A909B147B3E5CC614 /* Sources */,
-				965CBAB47F901916052D471D74F00E3F /* Frameworks */,
-				CA6C7675B93BB7718BCE2CD0C2127F6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE35646395036E83F115777B804432A4 /* PBXTargetDependency */,
-				1C0A668AFA5988D70CCEA9A885C3305E /* PBXTargetDependency */,
+				673873637196005BD77312A1A03E6C87 /* PBXTargetDependency */,
+				CEBEE7BE7AABCFC53B384BF283C3F6A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-LettuceTests";
 			productName = "Pods-LettuceTests";
-			productReference = 5D05135994C98AFFBAD3641259733C6A /* Pods_LettuceTests.framework */;
+			productReference = DFC2B1DB8FA1A477E60E9BDF1606F272 /* Pods_LettuceTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CCB32CD65C5DA947CBD7639371CC2F92 /* Pods-Lettuce */ = {
+		1D4075207DD61A8D27F9C19ABB061697 /* Pods-Lettuce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 071EACF7BB0B0F35C4D17C71A349FAEA /* Build configuration list for PBXNativeTarget "Pods-Lettuce" */;
+			buildConfigurationList = D66EED8C819733A5095ECD5415FD2196 /* Build configuration list for PBXNativeTarget "Pods-Lettuce" */;
 			buildPhases = (
-				804203A4DF5B39D4B65179E3D911B56C /* Headers */,
-				4999A2CF6B0981D168CB290902966AD4 /* Sources */,
-				68DA21365683ACA28E23B6803C0EA1F2 /* Frameworks */,
-				7D194059DD787980BCDF0C665884FEDC /* Resources */,
+				C839D814A0F81CA7774D52DEC3F423BD /* Headers */,
+				5C981C0098E4D2FB8E87AC758FDCA40A /* Sources */,
+				D9D49D32355183B30E45F3A6E2F364E6 /* Frameworks */,
+				6D7E94D4999A5B1D1C06AD9D279D028D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E19AFC73DE55ED3F934D9B272EFCD82E /* PBXTargetDependency */,
+				5F9B53C80E1A93720B01615B25DEB659 /* PBXTargetDependency */,
 			);
 			name = "Pods-Lettuce";
 			productName = "Pods-Lettuce";
-			productReference = 6E062D72C4FFF978764E527E75E147B2 /* Pods_Lettuce.framework */;
+			productReference = 40571C673FA1E266C92210A413AB5296 /* Pods_Lettuce.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8ABA4D337C059D638236C2AFA29F5F7 /* Pods-LettuceExamples */ = {
+		2A7FBDE446D910834CB765E8DB16FDB1 /* Pods-LettuceExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9C2E3B3B2DB2EF60A238D03A33EBF0C /* Build configuration list for PBXNativeTarget "Pods-LettuceExamples" */;
+			buildConfigurationList = 1E98C4E732D94B0372060EDEC3715AF1 /* Build configuration list for PBXNativeTarget "Pods-LettuceExamples" */;
 			buildPhases = (
-				D40053563F7A58B71750B9058B3CB3CA /* Headers */,
-				B5019ADDF67ADE247F44D05CBB7A9C06 /* Sources */,
-				A8AA044489EFFA16ADAC945AC4E4204F /* Frameworks */,
-				6914318B3EA114DDD24E295639FB038F /* Resources */,
+				DB08739FFFDDC7B026364D28C67F5582 /* Headers */,
+				D1155C277AC6AB0D2F381BBEBBCA4F45 /* Sources */,
+				0151ED2C29EDE7ECF4C01ACCE594C59E /* Frameworks */,
+				89908628BAF2D3EFE0EF9A2FA6856FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260A7076C5FB70C81CFE8C7D6C1D312B /* PBXTargetDependency */,
+				79ABD58A15FC17D7A1E4B6E93EF46B7F /* PBXTargetDependency */,
+			);
+			name = "Pods-LettuceExamples";
+			productName = "Pods-LettuceExamples";
+			productReference = AF548E4158E408E5637B10F8E78821AF /* Pods_LettuceExamples.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42305B8E7C703723C942CECDC1476AA4 /* Lettuce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E53A0E2A6E58CC30BD684429DF0809C /* Build configuration list for PBXNativeTarget "Lettuce" */;
+			buildPhases = (
+				0559E50445D2FD6C64BDFE07B50466B9 /* Headers */,
+				9D9D503B8EA4C02450A3AA59AE6FF7CA /* Sources */,
+				598BB107D623D28736A9E698D3F871F2 /* Frameworks */,
+				B3B88840D2F2A8D9AB31DD5EE10F6FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49BD9417D647DD239F9A910AC79C924 /* PBXTargetDependency */,
+			);
+			name = Lettuce;
+			productName = Lettuce;
+			productReference = 92988EEE2ED4461A1A373937ED25EBF5 /* Lettuce.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		717403A465B0F3D2C9D98D6F56852B27 /* GZIP-iOS9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722712C28C032D95D256274D4530677 /* Build configuration list for PBXNativeTarget "GZIP-iOS9.0" */;
+			buildPhases = (
+				EDAB0BFFB2C2E8DFD6CA0C0DB4D95098 /* Headers */,
+				E44ECBCA99F6F3C6B5E611EE777FC702 /* Sources */,
+				7290D707E736AD84A017E46D0D33432A /* Frameworks */,
+				BCCF16CF89AF6341269A4D012ACDF7DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LettuceExamples";
-			productName = "Pods-LettuceExamples";
-			productReference = 37973BF8D1DFDE613B6D123188087124 /* Pods_LettuceExamples.framework */;
+			name = "GZIP-iOS9.0";
+			productName = "GZIP-iOS9.0";
+			productReference = CC5866A01C66D154F126A6F46147CFFE /* GZIP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8DFBCA77D6D6DAC76C847177E33DB3E /* GZIP-iOS12.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A32CAA3B533BEB8A3C64A1BE8C1C5E /* Build configuration list for PBXNativeTarget "GZIP-iOS12.0" */;
+			buildPhases = (
+				163D5C882F94B7B3D2B32D4062B6EABC /* Headers */,
+				36CAE37F2ABD1EAE4B27E85FBF78DDA8 /* Sources */,
+				1E983AA1E1CCC8B25A6714C9D200F24F /* Frameworks */,
+				45222799D1147B0C670C8E34F3C44CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GZIP-iOS12.0";
+			productName = "GZIP-iOS12.0";
+			productReference = E55A884BE89A23A71928279105D3221F /* GZIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -398,41 +588,57 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7904FD019A94ECD04FABA8B9E806E557 /* Products */;
+			productRefGroup = 2D1CCA08588EAC586BFCE5AE95053026 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51EA1DC3801EB339C32B639F340026A9 /* GZIP */,
-				CCB32CD65C5DA947CBD7639371CC2F92 /* Pods-Lettuce */,
-				D8ABA4D337C059D638236C2AFA29F5F7 /* Pods-LettuceExamples */,
-				B1DB6736ED2196E87281806F34BF604F /* Pods-LettuceTests */,
+				B8DFBCA77D6D6DAC76C847177E33DB3E /* GZIP-iOS12.0 */,
+				717403A465B0F3D2C9D98D6F56852B27 /* GZIP-iOS9.0 */,
+				42305B8E7C703723C942CECDC1476AA4 /* Lettuce */,
+				1D4075207DD61A8D27F9C19ABB061697 /* Pods-Lettuce */,
+				2A7FBDE446D910834CB765E8DB16FDB1 /* Pods-LettuceExamples */,
+				1347CB4413BC9CECA5F3C519DE79C903 /* Pods-LettuceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6914318B3EA114DDD24E295639FB038F /* Resources */ = {
+		45222799D1147B0C670C8E34F3C44CA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D194059DD787980BCDF0C665884FEDC /* Resources */ = {
+		6D7E94D4999A5B1D1C06AD9D279D028D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FCE63E6F83094B0192857C17219ED6 /* Resources */ = {
+		89908628BAF2D3EFE0EF9A2FA6856FDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6C7675B93BB7718BCE2CD0C2127F6C /* Resources */ = {
+		98495BAA842A329B2C74B5786305416C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B88840D2F2A8D9AB31DD5EE10F6FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCF16CF89AF6341269A4D012ACDF7DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,64 +648,424 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08362AC3155B9844E35A5A906B7D95D8 /* Sources */ = {
+		36CAE37F2ABD1EAE4B27E85FBF78DDA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FB6C60154BFCC0AEF24F0C8B6A4FD7 /* GZIP-dummy.m in Sources */,
-				6295A52BEBF3FD46667DC7CCD0A8F4FD /* NSData+GZIP.m in Sources */,
+				A5789DCCF7468C5B8C99C1B60C7FC94F /* GZIP-iOS12.0-dummy.m in Sources */,
+				45F5086A868E6544EDB1DF9B53B33B6D /* NSData+GZIP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4999A2CF6B0981D168CB290902966AD4 /* Sources */ = {
+		5C981C0098E4D2FB8E87AC758FDCA40A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A008CC94C16735200C77F06475BD0A3E /* Pods-Lettuce-dummy.m in Sources */,
+				80ABF01D792C6FAC0CF875AE34230B96 /* Pods-Lettuce-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7741AEA96351940A909B147B3E5CC614 /* Sources */ = {
+		9220DEF1617F9D9F9E874D0867336987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7DCAD2456F30B0B738C07149E040A8 /* Pods-LettuceTests-dummy.m in Sources */,
+				91A300EC10D807D5515239F6176040D0 /* Pods-LettuceTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5019ADDF67ADE247F44D05CBB7A9C06 /* Sources */ = {
+		9D9D503B8EA4C02450A3AA59AE6FF7CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CD009F739DD8FCF922C3A63A6C9E5A /* Pods-LettuceExamples-dummy.m in Sources */,
+				BBF620264DD3C0F8579060370A694FC0 /* Lettuce-dummy.m in Sources */,
+				3BDE64E6CBC079184955912C5DC192DA /* MultiPartDataExtractor.swift in Sources */,
+				C513BCE481EED6CC943A8B303BE03AD4 /* NetworkCapturer.swift in Sources */,
+				B38ADE10D1EA670876ADDD9F09A60A80 /* NetworkLog.swift in Sources */,
+				DC321C3FD3AE63B44E2088B4DF3B34FD /* TestingURLProtocol.swift in Sources */,
+				B048C0516F072FB11755835E9AC73023 /* URLSessionDemux.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1155C277AC6AB0D2F381BBEBBCA4F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762E699A512720127F6ED0D74CC2FFD /* Pods-LettuceExamples-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44ECBCA99F6F3C6B5E611EE777FC702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47EDDCE0A085E56BFC4DB8015369ED /* GZIP-iOS9.0-dummy.m in Sources */,
+				71D110D86AF8BEC9D58ACAD073FBB365 /* NSData+GZIP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C0A668AFA5988D70CCEA9A885C3305E /* PBXTargetDependency */ = {
+		260A7076C5FB70C81CFE8C7D6C1D312B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GZIP-iOS12.0";
+			target = B8DFBCA77D6D6DAC76C847177E33DB3E /* GZIP-iOS12.0 */;
+			targetProxy = C62234B8D5973A748FB477751EF157D3 /* PBXContainerItemProxy */;
+		};
+		5F9B53C80E1A93720B01615B25DEB659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GZIP-iOS9.0";
+			target = 717403A465B0F3D2C9D98D6F56852B27 /* GZIP-iOS9.0 */;
+			targetProxy = AADBD824C387CF63918274EF614DD5BF /* PBXContainerItemProxy */;
+		};
+		673873637196005BD77312A1A03E6C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GZIP-iOS9.0";
+			target = 717403A465B0F3D2C9D98D6F56852B27 /* GZIP-iOS9.0 */;
+			targetProxy = 53EFDF0955E946AF792AE3729A1965CB /* PBXContainerItemProxy */;
+		};
+		79ABD58A15FC17D7A1E4B6E93EF46B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lettuce;
+			target = 42305B8E7C703723C942CECDC1476AA4 /* Lettuce */;
+			targetProxy = 0E0A7E6BAB4987ED7B77BB6AF4ECBC58 /* PBXContainerItemProxy */;
+		};
+		CEBEE7BE7AABCFC53B384BF283C3F6A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Lettuce";
-			target = CCB32CD65C5DA947CBD7639371CC2F92 /* Pods-Lettuce */;
-			targetProxy = 7D1F149976316647A04ECDC20536AB6C /* PBXContainerItemProxy */;
+			target = 1D4075207DD61A8D27F9C19ABB061697 /* Pods-Lettuce */;
+			targetProxy = 9652F46CECF9F16A849832EECC63E950 /* PBXContainerItemProxy */;
 		};
-		E19AFC73DE55ED3F934D9B272EFCD82E /* PBXTargetDependency */ = {
+		E49BD9417D647DD239F9A910AC79C924 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GZIP;
-			target = 51EA1DC3801EB339C32B639F340026A9 /* GZIP */;
-			targetProxy = 9D69C3A55B1A6BED415A5D3E6E59829E /* PBXContainerItemProxy */;
-		};
-		EE35646395036E83F115777B804432A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GZIP;
-			target = 51EA1DC3801EB339C32B639F340026A9 /* GZIP */;
-			targetProxy = 2FA18C73E06D6E681C8FE87051E9FD88 /* PBXContainerItemProxy */;
+			name = "GZIP-iOS9.0";
+			target = 717403A465B0F3D2C9D98D6F56852B27 /* GZIP-iOS9.0 */;
+			targetProxy = 2D3D9514B603E546769FB70430EC243D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+		09902E35E1094B6061E5D1ABD337B1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0A9A775B43AB24E75AA50B6F555B44 /* GZIP-iOS9.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GZIP-iOS9.0/GZIP-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZIP-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GZIP-iOS9.0/GZIP-iOS9.0.modulemap";
+				PRODUCT_MODULE_NAME = GZIP;
+				PRODUCT_NAME = GZIP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FC68E5BB7255AE19F2776F7E4839552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED8F54BCB5CDA32C967B36A8710EDAE /* Lettuce.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lettuce/Lettuce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lettuce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Lettuce/Lettuce.modulemap";
+				PRODUCT_MODULE_NAME = Lettuce;
+				PRODUCT_NAME = Lettuce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D964A0BA42AA8C6E015B25A9FC8CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7035D109AC3090DFB050998DDA4E13 /* Pods-Lettuce.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lettuce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lettuce/Pods-Lettuce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F173CC8BFC55B80C1F5EBF0DA0D0140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7839DB7623C7235CF30B6C20586A97BA /* Pods-Lettuce.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lettuce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lettuce/Pods-Lettuce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		600F882C41E04C43D5E53D534FC66455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED8F54BCB5CDA32C967B36A8710EDAE /* Lettuce.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lettuce/Lettuce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lettuce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Lettuce/Lettuce.modulemap";
+				PRODUCT_MODULE_NAME = Lettuce;
+				PRODUCT_NAME = Lettuce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BA85423C0CEB4E6E67CC0B9A3E38D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9147CD6654C0CDB244FCB428F18D1B8B /* Pods-LettuceExamples.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LettuceExamples/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LettuceExamples/Pods-LettuceExamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ECB4388919AE8E8677F107C4F74ACEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9398C4C975B34D353045D6039DCA86AD /* Pods-LettuceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LettuceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LettuceTests/Pods-LettuceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -552,7 +1118,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -565,9 +1131,9 @@
 			};
 			name = Debug;
 		};
-		15B1A60109E790DD23370B3CEBE51966 /* Debug */ = {
+		B6F699C5D06BD5C907BDF223C601EAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B624C3AD65D38C8AF5BCBC43225E30 /* GZIP.xcconfig */;
+			baseConfigurationReference = DDD3853627FD171AF9918A135DCF8C11 /* GZIP-iOS12.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,8 +1144,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GZIP/GZIP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZIP/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GZIP-iOS12.0/GZIP-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZIP-iOS12.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,7 +1153,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GZIP/GZIP.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GZIP-iOS12.0/GZIP-iOS12.0.modulemap";
 				PRODUCT_MODULE_NAME = GZIP;
 				PRODUCT_NAME = GZIP;
 				SDKROOT = iphoneos;
@@ -600,12 +1166,10 @@
 			};
 			name = Debug;
 		};
-		5B757D6010F71555AF11EEE9A512563E /* Release */ = {
+		D8DD903380DD0A3EE2663604F89B3600 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7839DB7623C7235CF30B6C20586A97BA /* Pods-Lettuce.release.xcconfig */;
+			baseConfigurationReference = DDD3853627FD171AF9918A135DCF8C11 /* GZIP-iOS12.0.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -615,23 +1179,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lettuce/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GZIP-iOS12.0/GZIP-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZIP-iOS12.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lettuce/Pods-Lettuce.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GZIP-iOS12.0/GZIP-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = GZIP;
+				PRODUCT_NAME = GZIP;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -639,7 +1202,7 @@
 			};
 			name = Release;
 		};
-		71071F92A843EA31A0616E6CF72E4089 /* Release */ = {
+		ED0DC79F060B0E0663699C35E2C799F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0EB3BA99FD057303F31BF04CBBEEDC7 /* Pods-LettuceExamples.release.xcconfig */;
 			buildSettings = {
@@ -656,7 +1219,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LettuceExamples/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -678,12 +1241,11 @@
 			};
 			name = Release;
 		};
-		7C3BE2D2F1A5EA668C047BF37BF2938B /* Release */ = {
+		EDC81EC883907A8DCD680AFCFB554109 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9398C4C975B34D353045D6039DCA86AD /* Pods-LettuceTests.release.xcconfig */;
+			baseConfigurationReference = 319FA70CFD3183570F445B1461EA4D56 /* Pods-LettuceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -695,7 +1257,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LettuceTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -711,77 +1273,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8000995DA02063BF3777393CD52061DD /* Release */ = {
+		FDBD2D0B5F89F1D01539265645CB9316 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A5553F256EFA8F285485B81A09AE219D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B624C3AD65D38C8AF5BCBC43225E30 /* GZIP.xcconfig */;
+			baseConfigurationReference = 2A0A9A775B43AB24E75AA50B6F555B44 /* GZIP-iOS9.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -792,8 +1291,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GZIP/GZIP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZIP/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GZIP-iOS9.0/GZIP-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZIP-iOS9.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -801,128 +1300,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GZIP/GZIP.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GZIP-iOS9.0/GZIP-iOS9.0.modulemap";
 				PRODUCT_MODULE_NAME = GZIP;
 				PRODUCT_NAME = GZIP;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA6DE7523F7C5886DAC9D6EF77A6C1C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E7035D109AC3090DFB050998DDA4E13 /* Pods-Lettuce.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lettuce/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lettuce/Pods-Lettuce.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1BB41B15060A8FEC3A76C9D51C1089D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319FA70CFD3183570F445B1461EA4D56 /* Pods-LettuceTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LettuceTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LettuceTests/Pods-LettuceTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4D699B7CC385AE29ECA085D5A0BA516 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9147CD6654C0CDB244FCB428F18D1B8B /* Pods-LettuceExamples.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LettuceExamples/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LettuceExamples/Pods-LettuceExamples.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -932,11 +1316,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		071EACF7BB0B0F35C4D17C71A349FAEA /* Build configuration list for PBXNativeTarget "Pods-Lettuce" */ = {
+		1E98C4E732D94B0372060EDEC3715AF1 /* Build configuration list for PBXNativeTarget "Pods-LettuceExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA6DE7523F7C5886DAC9D6EF77A6C1C5 /* Debug */,
-				5B757D6010F71555AF11EEE9A512563E /* Release */,
+				6BA85423C0CEB4E6E67CC0B9A3E38D03 /* Debug */,
+				ED0DC79F060B0E0663699C35E2C799F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -944,35 +1328,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
-				8000995DA02063BF3777393CD52061DD /* Release */,
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B743A347F9A992C2A2C31918A3D74DA /* Build configuration list for PBXNativeTarget "GZIP" */ = {
+		7722712C28C032D95D256274D4530677 /* Build configuration list for PBXNativeTarget "GZIP-iOS9.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15B1A60109E790DD23370B3CEBE51966 /* Debug */,
-				A5553F256EFA8F285485B81A09AE219D /* Release */,
+				FDBD2D0B5F89F1D01539265645CB9316 /* Debug */,
+				09902E35E1094B6061E5D1ABD337B1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A90E2DC95B7941CDCEDE02D74B57BE22 /* Build configuration list for PBXNativeTarget "Pods-LettuceTests" */ = {
+		7E53A0E2A6E58CC30BD684429DF0809C /* Build configuration list for PBXNativeTarget "Lettuce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1BB41B15060A8FEC3A76C9D51C1089D /* Debug */,
-				7C3BE2D2F1A5EA668C047BF37BF2938B /* Release */,
+				3FC68E5BB7255AE19F2776F7E4839552 /* Debug */,
+				600F882C41E04C43D5E53D534FC66455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9C2E3B3B2DB2EF60A238D03A33EBF0C /* Build configuration list for PBXNativeTarget "Pods-LettuceExamples" */ = {
+		824B5F702033D41DC0D43C45A4D41512 /* Build configuration list for PBXNativeTarget "Pods-LettuceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4D699B7CC385AE29ECA085D5A0BA516 /* Debug */,
-				71071F92A843EA31A0616E6CF72E4089 /* Release */,
+				EDC81EC883907A8DCD680AFCFB554109 /* Debug */,
+				6ECB4388919AE8E8677F107C4F74ACEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A32CAA3B533BEB8A3C64A1BE8C1C5E /* Build configuration list for PBXNativeTarget "GZIP-iOS12.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F699C5D06BD5C907BDF223C601EAD6 /* Debug */,
+				D8DD903380DD0A3EE2663604F89B3600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66EED8C819733A5095ECD5415FD2196 /* Build configuration list for PBXNativeTarget "Pods-Lettuce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D964A0BA42AA8C6E015B25A9FC8CB82 /* Debug */,
+				5F173CC8BFC55B80C1F5EBF0DA0D0140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

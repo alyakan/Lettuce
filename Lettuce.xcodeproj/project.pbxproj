@@ -58,6 +58,8 @@
 		714F6A0E2242A0D200A83AD4 /* TestingURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingURLProtocol.swift; sourceTree = "<group>"; };
 		714F6A0F2242A0D200A83AD4 /* URLSessionDemux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionDemux.swift; sourceTree = "<group>"; };
 		714F6A152242A14C00A83AD4 /* NetworkCapturerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCapturerTests.swift; sourceTree = "<group>"; };
+		71AA822D2243A6FC009594F5 /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GZIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AA82322243A72E009594F5 /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GZIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7646989D07D131429B02A98F /* Pods_Lettuce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lettuce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D00A8D016D30A8737DAC32 /* Pods-LettuceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LettuceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LettuceTests/Pods-LettuceTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF78E6DEE88EDBF04EBF8405 /* Pods-Lettuce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lettuce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lettuce/Pods-Lettuce.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +157,8 @@
 		C6A3B2D5D647462B2798C91E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71AA82322243A72E009594F5 /* GZIP.framework */,
+				71AA822D2243A6FC009594F5 /* GZIP.framework */,
 				7646989D07D131429B02A98F /* Pods_Lettuce.framework */,
 				33DEDDF981215B3F4F08695B /* Pods_LettuceExamples.framework */,
 				303DCFD25D9AC30B1B93C0EB /* Pods_LettuceTests.framework */,
@@ -224,6 +228,7 @@
 				714F69F522427C3700A83AD4 /* Sources */,
 				714F69F622427C3700A83AD4 /* Frameworks */,
 				714F69F722427C3700A83AD4 /* Resources */,
+				033697A64F0D3096DA7406B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +331,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		033697A64F0D3096DA7406B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LettuceExamples/Pods-LettuceExamples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GZIP-iOS12.0/GZIP.framework",
+				"${BUILT_PRODUCTS_DIR}/Lettuce/Lettuce.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GZIP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lettuce.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LettuceExamples/Pods-LettuceExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		24452D59A55443848FED3FCA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,7 +364,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LettuceTests/Pods-LettuceTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GZIP/GZIP.framework",
+				"${BUILT_PRODUCTS_DIR}/GZIP-iOS9.0/GZIP.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (

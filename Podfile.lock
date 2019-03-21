@@ -1,16 +1,24 @@
 PODS:
   - GZIP (1.2.2)
+  - Lettuce (0.0.5):
+    - GZIP (~> 1.2)
 
 DEPENDENCIES:
   - GZIP (~> 1.2)
+  - Lettuce (from `../Lettuce`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GZIP
 
+EXTERNAL SOURCES:
+  Lettuce:
+    :path: "../Lettuce"
+
 SPEC CHECKSUMS:
   GZIP: 12374d285e3b5d46cfcd480700fcfc7e16caf4f1
+  Lettuce: 3042a74f2c89427ca5d54aeb429f788c694950da
 
-PODFILE CHECKSUM: 2ce11d07769b1c0f3d540751075e9f3da155d4a6
+PODFILE CHECKSUM: 969ac2472417a50255700ca9a443e4b8c89d2dee
 
 COCOAPODS: 1.5.3
